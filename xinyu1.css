@@ -1,0 +1,56 @@
+@font-face{
+    font-family: 'hanyi';
+    src: url('hanyixiangpini.ttf');
+}
+@font-face {
+    font-family: 'rainbow';
+    src: url('Rainbow.ttf');
+}
+
+body{
+    /*background-image: url('pipa2.jpg');*/
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: initial;
+}
+
+h1{
+    font-family: 'hanyi';
+    text-align: center;
+    color: black;
+}
+
+article{
+    font-family: 'hanyi';
+    color: black;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.head{
+    font-family: 'rainbow','hanyi';
+    float: left;
+    color: black;
+    font-size: 20px;
+}
+.p1{
+    font-family: 'rainbow','hanyi';
+    float: right;
+    color: black;
+    font-size: 20px;
+}
+
+img{
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+p{
+    font-family: 'rainbow','hanyi';
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
